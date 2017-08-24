@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>The MadGuy</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <link rel="icon" href="images/icons/favicon.png">
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href='css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href="css/default.css" rel="stylesheet" type="text/css" >
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content=" "/>
+
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!---- start-smoth-scrolling---->
+</head>
+<body>
+<!-- container -->
+<!-- header -->
+<div id="home" class="header">
+    <div class="container">
+        <!-- top-hedader -->
+        <div class="top-header">
+            <!-- /logo -->
+            <!--top-nav---->
+            <div class="top-nav">
+                <div class="navigation">
+                    <div class="logo">
+                        <h2><a href="/"><span>THE MADGUY</span></a></h2>
+                    </div>
+                    <div class="navigation-right">
+                        <span class="menu"><img src="images/menu.png" alt=" " /></span>
+                        <nav class="link-effect-3" id="link-effect-3">
+                            <ul class="nav1 nav nav-wil">
+                                <li class="active"><a data-hover="Home" href="/">Home</a></li>
+                                <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                                <li><a class="scroll" data-hover="Blog" href="#blogs">Blog</a></li>
+                                <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <!-- script-for-menu -->
+                        <script>
+                            $( "span.menu" ).click(function() {
+                                $( "ul.nav1" ).slideToggle( 300, function() {
+                                    // Animation complete.
+                                });
+                            });
+                        </script>
+                        <!-- /script-for-menu -->
+                    </div>
+
+                    <!-- /top-hedader -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="col-md-6 about-left">
+            <div id="owl-demo1" class="owl-carousel owl-carousel2">
+
+                <div class="item">
+                    <div class="about-left-grid">
+                        <h2>Hi! I'm <span>Rohith Vutnoor</span></h2>
+                        <p style="text-align:justify;">Yeah, i am currently enjoying my beautiful engineering life with all my college friends.
+                            Experiencing and enjoying my professional career.
+                            Proud of my honestiness, confidence and the main thing that changed my life simpler is my attitude.
+                            I like people with good smile and my favourites are those who try to listen me what i say.
+
+                            Interested in reading people's mind what they actually trying to get out of me.
+                            Work and play with friends and some occassional parties.
+                            Do some coding when i get bored, play with variables and loops.
+                            Passionate about ART. If there's nothing to do then i would like to start drawing the whole day without any breaks.
+                            Play some fine cricket with my magic Leg-Break, and Wrong-Un bowling.
+                            Well that's for me!!
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 about-right">
+
+        </div>
+        <div class="clearfix"> </div>
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <script src="js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo1").owlCarousel({
+                    items : 1,
+                    lazyLoad : false,
+                    autoPlay : true,
+                    navigation : false,
+                    navigationText :  false,
+                    pagination : true
+                });
+            });
+        </script>
+        <!-- Feedback -->
+        <script>
+            $(document).ready(function() {
+                $("#owl-demo3").owlCarousel({
+                    items : 1,
+                    lazyLoad : false,
+                    autoPlay : true,
+                    navigation : false,
+                    navigationText :  true,
+                    pagination :true
+                });
+            });
+        </script>
+    </div>
+    <!-- /about -->
+
+
+    <!-- portfolio   ####sake of clearfix####   -->
+
+</div>
+</div>
+</div>
+</div>
+<!-- //portfolio -->
+<!-- top-grids -->
+<div class="blog" id="blogs">
+
+    <div class="container">
+        <div class="service-head text-center">
+
+            <h3><span>MY PROJECTS</span></h3>
+            <span class="border one"></span>
+        </div>
+
+
+
+
+        <!--1.............................-->
+        <h2>Project ATM</h2>
+        </br>
+        <div class="youtubevideowrap">
+            <div class="video-container">
+                <iframe width="640" height="352" src="https://www.youtube.com/embed/xouC-Y_YoZ8" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news-grid">
+            <div class="col-md-6 news-text"  style="text-align:left;">
+                <h3> <a href="#" data-toggle="modal" data-target="#myModal1"  style="text-align:justify;">Project Specifications</a></h3>
+
+                <p style="text-align:justify;">Programming Language: C++<br>
+                    DataBase: File Storage<br>
+                    Software Requirements: Dev C++ Integrated Development Environment<br><br>
+                </p>
+                <a href="https://github.com/rohithvutnoor/Project_ATM" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Source Code</a>
+
+            </div>
+
+            <div class="col-md-6 news-text"  style="text-align:left;">
+                <h3> <a href="#" data-toggle="modal" data-target="#myModal1"  style="text-align:left;">Project Description</a></h3>
+
+                <p style="text-align:left;">Developed in C++.
+                    <br>Has functions like Withdraw, Transfer, Mini-Statement.
+                    <br>Voice control instructions.
+                    <br>Interactive End User interface.
+                    <br>Well built and clean code.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <!--2..........................-->
+
+        <h2>Project EditNote</h2>
+        </br>
+        <div class="youtubevideowrap">
+            <div class="video-container">
+                <iframe width="640" height="352" src="https://www.youtube.com/embed/YaxWhZB9CYw" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news-grid">
+            <div class="col-md-6 news-text"  style="text-align:left;">
+                <h3> <a href="#" data-toggle="modal" data-target="#myModal1"  style="text-align:justify;">Project Specifications</a></h3>
+
+                <p style="text-align:justify;">Programming Language: Java<br>
+                    DataBase: Os File System<br>
+                    Software Requirements: JDK Java Environment<br><br>
+                </p>
+                <a href="https://github.com/rohithvutnoor/EditNote" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Source Code</a>
+                </br>
+            </div>
+
+            <div class="col-md-6 news-text"  style="text-align:left;">
+                <h3> <a href="#" data-toggle="modal" data-target="#myModal1"  style="text-align:left;">Project Description</a></h3>
+
+                <p style="text-align:left;">EditNote Java Application Text Editor.
+                    <br>InBuilt Dictionary, simple calculator,syntax folding & shortcuts.
+                    <br>Count words, characters, spaces, lines. </br>Displays current file size in the status.
+                    <br>Compile Java Source Code.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <!--3..........................................-->
+
+        <h2>Project HealthLine</h2>
+        </br>
+        <div class="youtubevideowrap">
+            <div class="video-container">
+                <iframe width="640" height="352" src="https://www.youtube.com/embed/VImDHbfWanw" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="news-grid">
+            <div class="col-md-6 news-text"  style="text-align:left;">
+                <h3> <a href="#" data-toggle="modal" data-target="#myModal1"  style="text-align:justify;">Project Specifications</a></h3>
+
+                <p style="text-align:justify;">Programming Language: AngularJS, ExpressJS and NodeJS<br>
+                    DataBase: MongoDB<br>
+                    Software Requirements: Mongo Server and Node Server<br><br>
+                </p>
+                <a href="https://github.com/rohithvutnoor/HealthLine" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Source Code</a>
+            </div>
+
+            <div class="col-md-6 news-text"  style="text-align:left;">
+                <h3> <a href="#" data-toggle="modal" data-target="#myModal1"  style="text-align:left;">Project Description</a></h3>
+
+                <p style="text-align:left;">A Web Application using MEAN stack.
+                    <br>Providing solutions to prevent diseases.
+                    <br>Symptom Checker.
+                    <br>Make an Appointment for consultancy.
+                    <br>Has Dynamic content by Angular Framework with Mongo DataBase.<br> </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+<!-- top-grids -->
+
+
+<!-- /header -->
+
+<div class="footer" id="contact">
+    <div class="container">
+        <div class="service-head one text-center">
+            <h4>CONTACT ME</h4>
+            <h3>GET <span>IN TOUCH WITH ME</span></h3>
+            <span class="border two"></span>
+        </div>
+        <div class="mail_us">
+            <div class="col-md-6 mail_left">
+                <div class="contact-grid1-left">
+                    <div class="contact-grid1-left1">
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                        <h4>Contact By Email</h4>
+                        <ul>
+                            <li>Mail: <a href="mailto:rohithvutnoor@gmail.com">rohithvutnoor@gmail.com</a></li>
+                        </ul></br>
+                    </div>
+                </div>
+
+                <div class="contact-grid1-left">
+                    <div class="contact-grid1-left1">
+                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                        <h4>Contact By Phone</h4>
+                        <ul>
+                            <li>Phone: +91 9010 582 480</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mail_right">
+                <div class="contact-grid1-left">
+                    <div class="contact-grid1-left1">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        <h4>Looking For Address</h4>
+                        <ul>
+                            <li>Address: Gachibowli, Hyderabad.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--</div>
+                <div class="col-md-6 mail_right">-->
+                <div class="contact-grid1">
+                    <div class="contact-grid1">
+                        </br></br>
+                        <a href="https://plus.google.com/+RohithVutnoor">
+                            <img src="images/icons/GooglePlus-icon.png" height=auto width=15%/>
+                        </a>
+                        <a href="https://www.facebook.com/vutnoorrohith">
+                            <img src="images/icons/Facebook-icon.png" height=auto width=15%/>
+                        </a>
+                        <a href="https://github.com/rohithvutnoor">
+                            <img src="images/icons/GitHub-icon.png" height=auto width=15%/>
+                        </a>
+                        <a href="https://in.linkedin.com/in/rohith-vutnoor-53b174111">
+                            <img src="images/icons/LinkedIn-icon.png" height=auto width=15%/>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCqWpyP0zKxMKkHMdbeuHVvA">
+                            <img src="images/icons/Youtube-icon.png" height=auto width=15%/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+
+        </div>
+        <!-- //footer -->
+
+        <form action="/themadguy/comments" id="usrform" method="POST">
+           <strong>Your Name: </strong><input type="text" size="35" name="username"><br>
+            <textarea rows="4" cols="50" placeholder="Leave Your Message Here" name="comment"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+
+        <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        <!--start-smooth-scrolling-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                /*var defaults = {
+                 containerID: 'toTop', // fading element id
+                 containerHoverID: 'toTopHover', // fading element hover id
+                 scrollSpeed: 1200,
+                 easingType: 'linear'
+                 };
+                 */
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <!--end-smooth-scrolling-->
+        <!-- //for bootstrap working -->
+        <script src="js/bootstrap.js"></script>
+
+</div></div>
+</body>
+</html>
+

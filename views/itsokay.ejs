@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Rohith Vutnoor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Personal" />
+    <link rel="icon" href="images/icons/favicon.png">
+</head>
+
+<body>
+
+    <div>
+        <% remote.forEach(function(item){%><br>
+            <div class="card" style="width: 30rem;">
+                <strong>Name: &nbsp;&nbsp;</strong> <%= item.username %><br>
+                <strong>Query: &nbsp;</strong> <%= item.query%><br>
+                <strong>Time: &nbsp;&nbsp;&nbsp;</strong> <%= item.time%><br><br><hr>
+            </div>
+    </div>
+    <%});%>
+
+</body>
+</html>
