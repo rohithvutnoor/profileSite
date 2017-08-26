@@ -1,0 +1,423 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Rohith Vuntoor</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<link rel="icon" href="images/icons/favicon.png">
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='css/normalize.css' rel='stylesheet' type='text/css'>
+<link href="css/default.css" rel="stylesheet" type="text/css" >
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content=" "/>
+	
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
+ <style>
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px/1 'Open Sans', sans-serif;
+  color: #555;
+  background: #ffffff;
+}
+
+.gallery {
+  width: 800px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 250px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+ </style>
+ 
+ 
+ 
+ 
+</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h2><a href="index.html"><!--<span>THE MADGUY</span>--></a></h2>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					
+				<!-- /top-hedader -->
+				</div>
+				
+			</div>
+		</div>
+	</div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			
+			
+		<!-- portfolio   ####sake of clearfix####   -->
+
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="blog" id="blogs">
+	
+	<h1>Canvas Drawing Book</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/bookDory.jpg" />
+	  </div>
+		<div>
+		<img src="images/art/bookGlass.jpg" />
+	  </div>
+		<div>
+		<img src="images/art/bookMini.jpg" />
+	  </div>
+	</div>
+	<br/>
+	<h1>Wooden Canvas</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/frameSai.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/frameSubhash.jpg" />
+	  </div>
+		<div>
+		<img src="images/art/frameGandhi.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/frameVivekananda.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/frameBalGanesh.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/frameNature.jpg" />
+	  </div>
+	</div>
+	
+	<br>
+	
+	<h1>Art Glass Frame</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/glassFrameGanesh.jpeg" />
+	  </div>
+		<div>
+		<img src="images/art/glassFrameGaneshN.jpg" />
+	  </div>
+		<div>
+		<img src="images/art/glassFrameSaiBaba.jpeg" />
+	  </div>
+	</div>
+	
+	<br>
+	
+	<h1>General Art</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/negativeJoker.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/digiBear.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/circles.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/shruthi1.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/shruthi2.jpg" />
+	  </div>
+	  
+	</div>
+	
+	<br>
+	
+	<h1>Logo Art</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/logo.jpg" />
+	  </div>
+		<div>
+		<img src="images/art/logoOSC1.jpg" />
+	  </div>
+	  <div>
+		<img src="images/art/logoOSC2.jpg" />
+	  </div>
+	</div>
+	
+	<br>
+	
+	<h1>Published Art</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/sakshiFull.jpeg" />
+	  </div>
+		<div>
+		<img src="images/art/sakshiClose.jpeg" />
+	  </div>
+	</div>
+	
+	<br>
+	
+	<h1>Impasto Art</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/art/impastoFull.jpeg" />
+	  </div>
+		<div>
+		<img src="images/art/impastoPalette.jpeg" />
+	  </div>
+	  <div>
+		<img src="images/art/impastoTools.jpeg" />
+	  </div>
+		  <div>
+		<img src="images/art/impastoPot.jpeg" />
+	  </div>
+		<div>
+		<img src="images/art/impastoFlowerClose.jpeg" />
+	  </div>
+	</div>
+	
+	</br></br></br></br>
+	<h1>Crafts</h1>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/craft/frames.jpg" />
+	  </div>
+	</div>
+	<div class="gallery cf">
+	  <div>
+		<img src="images/craft/bulbShip.jpg" />
+	  </div>
+	  <div>
+		<img src="images/craft/candleLights.jpg" />
+	  </div>
+		  <div>
+		<img src="images/craft/mobileCase.jpg" />
+	  </div>
+	  <div>
+		<img src="images/craft/Rob1.jpg" />
+	  </div>
+	  <div>
+		<img src="images/craft/minionFull.jpg" />
+	  </div>
+	  <!-- <div>
+		<img src="images/craft/Rob2.jpg" />
+	  </div>-->
+	</div>
+	</div>
+	<!-- //portfolio -->
+    <!-- top-grids 
+
+				<!-- top-grids -->
+	
+
+			<!-- /header -->
+			
+<div class="footer" id="contact">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>CONTACT ME</h4>
+						<h3>GET <span>IN TOUCH WITH ME</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Contact By Email</h4>
+						<ul>
+							<li>Mail: <a href="mailto:rohithvutnoor@gmail.com">rohithvutnoor@gmail.com</a></li>
+						</ul></br>
+					</div>
+				</div>
+				
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>Contact By Phone</h4>
+							<ul>
+								<li>Phone: +91 9010 582 480</li>
+							</ul>
+						</div>
+					</div>
+			</div>	
+
+				<div class="col-md-6 mail_right">
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>Looking For Address</h4>
+							<ul>
+								<li>Address: Gachibowli, Hyderabad.</li>
+							</ul>
+						</div>
+					</div>
+				<!--</div>
+				<div class="col-md-6 mail_right">-->
+					<div class="contact-grid1">
+						<div class="contact-grid1">
+						</br></br>
+							<a href="https://plus.google.com/+RohithVutnoor">
+						<img src="images/icons/GooglePlus-icon.png" height=auto width=15%/>
+					</a>   
+					<a href="https://www.facebook.com/vutnoorrohith">
+						<img src="images/icons/Facebook-icon.png" height=auto width=15%/>
+					</a>
+					<a href="https://github.com/rohithvutnoor">
+						<img src="images/icons/GitHub-icon.png" height=auto width=15%/>
+					</a>
+					<a href="https://in.linkedin.com/in/rohith-vutnoor-53b174111">
+						<img src="images/icons/LinkedIn-icon.png" height=auto width=15%/>
+					</a>
+					<a href="https://www.youtube.com/channel/UCqWpyP0zKxMKkHMdbeuHVvA">
+						<img src="images/icons/Youtube-icon.png" height=auto width=15%/>
+					</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //footer -->
+			
+			
+	
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										
+										/*var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+			*/							
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
+
+	</body>
+</html>
+
