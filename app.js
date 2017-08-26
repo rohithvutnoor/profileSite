@@ -10,6 +10,7 @@ var profile = require('./routes/profile');
 var themadguy = require('./routes/themadguy');
 var redirect = require('./routes/redirect');
 var itsokay = require('./routes/itsokay');
+var itsokay = require('./routes/art');
 
 var app = express();
 
@@ -30,6 +31,7 @@ app.use('/profile', profile);
 app.use('/themadguy', themadguy);
 app.use('/redirect', redirect);
 app.use('/itsokay', itsokay);
+app.use('/art', art);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
