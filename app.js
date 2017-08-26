@@ -10,7 +10,7 @@ var profile = require('./routes/profile');
 var themadguy = require('./routes/themadguy');
 var redirect = require('./routes/redirect');
 var itsokay = require('./routes/itsokay');
-var itsokay = require('./routes/art');
+var art = require('./routes/art');
 
 var app = express();
 
